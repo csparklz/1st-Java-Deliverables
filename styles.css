@@ -60,5 +60,11 @@ ul li a:hover {
     margin: 0 auto; 
     padding: 0 20px; 
 }
+.mobile-image {
+    display: none;
+}
 @media screen and (min-width: 768px) {
+    .mobile-image {
+        display: block;
+    }
 }
